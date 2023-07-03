@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.button {
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: 0.2s linear;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button:active {
+  translate: 0 5px;
+}
+.primary {
+  background: #f44336;
+}
+.info {
+  background: #2196f3;
+}
