@@ -11,7 +11,7 @@ export default function Index() {
   const [candyMachineData, setCandyMachineData] = useState<any>(null);
 
   return (
-    <div className="bg-black min-h-screen">
+    <div className="bg-[#151515] min-h-screen">
       {/* <NavBar /> */}
 
       {candyMachineData ? (
